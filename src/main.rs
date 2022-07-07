@@ -1,5 +1,9 @@
-fn main(){
-    //tuple data type
-    let x: (i64, bool, u32) = (-12, true, 16);
-    println!("{}", x.0);
+fn main() {
+    println!("Hello, world!");
+
+    another_function();
+}
+
+fn another_function() {
+    println!("Another function.");
 }
